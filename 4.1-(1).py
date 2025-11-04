@@ -1,0 +1,12 @@
+# 4.1) i) Create and display a Pandas Series
+import pandas as pd
+
+# Data for the series
+my_data = [1, 7, 2, 9, 5]
+
+# Create a Pandas Series
+series = pd.Series(my_data)
+
+# Display the Series
+print("Pandas Series:")
+print(series)
